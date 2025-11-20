@@ -1,0 +1,27 @@
+## Sentry Turrent Toy
+This plugin will allow players to pickup, move, and spawn sentry turrents.
+### Screenshots:
+![Preview](./preview.gif)
+### ConVars:
+- `sentry_toggle_mode` - Allow turrents to be moved without having to hold the use key
+- `sentry_max_per_player` - Maximum spawned turrents per player
+- `sentry_allow_spawning` - Allow spawning of new turrents
+- `sentry_pickup_others_allowed` - Allow players to move/pickup turrents they did not spawn
+
+ConVars can be set via `as_command ss.<cvar> <value>`
+
+### Install:
+Add the following to your `default_plugins.txt` file.
+
+```
+"plugin"
+{
+		"name" "Sentry"
+		"script" "Sentry/Sentry"
+		"concommandns" "ss"
+}
+```
+
+### Notes:
+Admins can spawn an unlimited amount of turrents.<br>
+Non-admins can spawn turrents up to the maximum allowed. (Set `sentry_max_per_player` to `0`, to disallow non-admin spawning.)
