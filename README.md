@@ -1,7 +1,9 @@
 ## Sentry Turrent Toy
 This plugin will allow players to pickup, move, and spawn sentry turrents.
-### Screenshots:
-![Preview](./preview.gif)
+### Screenshot:
+
+<img src="preview.png" alt="drawing" width="800"/>
+
 ### ConVars:
 - `sentry_toggle_mode` - Allow turrents to be moved without having to hold the use key
 - `sentry_max_per_player` - Maximum spawned turrents per player
